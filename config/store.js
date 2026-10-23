@@ -1,0 +1,33 @@
+// Clean In-memory fallback dataset (no dummy or mock data)
+const memoryStore = {
+  users: [],
+  products: [],
+  books: [],
+  rentals: [],
+  events: [],
+  blogs: [],
+  orders: [],
+  contactMessages: [],
+  attributes: [],
+  vendors: [],
+  posInvoices: [],
+  quotations: [],
+  paymentsIn: [],
+  creditNotes: [],
+  purchaseInvoices: [],
+  purchaseReturns: [],
+  paymentsOut: [],
+  debitNotes: [],
+  purchaseOrders: [],
+  instoreReturns: [],
+  customerReturns: [],
+  coupons: [],
+  offers: [],
+  categories: [],
+  staff: [],
+  roles: [],
+  gstReturns: [],
+  profitReports: [],
+};
+
+export default memoryStore;
