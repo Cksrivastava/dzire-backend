@@ -55,7 +55,7 @@ if (!fs.existsSync(productUploadsDir)) {
 app.use(compression());
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173",
+    origin: process.env.CLIENT_URL || "https://d-zire.netlify.app",
     credentials: true,
   })
 );
